@@ -66,6 +66,7 @@ Partial Class Form1
         '
         'w1
         '
+        Me.w1.Enabled = False
         Me.w1.Location = New System.Drawing.Point(139, 83)
         Me.w1.Name = "w1"
         Me.w1.Size = New System.Drawing.Size(50, 20)
@@ -73,6 +74,7 @@ Partial Class Form1
         '
         'w2
         '
+        Me.w2.Enabled = False
         Me.w2.Location = New System.Drawing.Point(139, 148)
         Me.w2.Name = "w2"
         Me.w2.Size = New System.Drawing.Size(50, 20)
@@ -80,6 +82,7 @@ Partial Class Form1
         '
         'bias
         '
+        Me.bias.Enabled = False
         Me.bias.Location = New System.Drawing.Point(274, 242)
         Me.bias.Name = "bias"
         Me.bias.Size = New System.Drawing.Size(56, 20)
@@ -87,6 +90,7 @@ Partial Class Form1
         '
         'niu
         '
+        Me.niu.Enabled = False
         Me.niu.Location = New System.Drawing.Point(274, 21)
         Me.niu.Name = "niu"
         Me.niu.Size = New System.Drawing.Size(56, 20)
@@ -94,6 +98,7 @@ Partial Class Form1
         '
         'y
         '
+        Me.y.Enabled = False
         Me.y.Location = New System.Drawing.Point(410, 105)
         Me.y.Name = "y"
         Me.y.Size = New System.Drawing.Size(56, 20)
