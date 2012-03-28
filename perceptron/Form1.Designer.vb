@@ -27,7 +27,7 @@ Partial Class Form1
         Me.w1 = New System.Windows.Forms.TextBox()
         Me.w2 = New System.Windows.Forms.TextBox()
         Me.bias = New System.Windows.Forms.TextBox()
-        Me.niu = New System.Windows.Forms.TextBox()
+        Me.u = New System.Windows.Forms.TextBox()
         Me.y = New System.Windows.Forms.TextBox()
         Me.yd = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -88,13 +88,13 @@ Partial Class Form1
         Me.bias.Size = New System.Drawing.Size(56, 20)
         Me.bias.TabIndex = 4
         '
-        'niu
+        'u
         '
-        Me.niu.Enabled = False
-        Me.niu.Location = New System.Drawing.Point(274, 21)
-        Me.niu.Name = "niu"
-        Me.niu.Size = New System.Drawing.Size(56, 20)
-        Me.niu.TabIndex = 5
+        Me.u.Enabled = False
+        Me.u.Location = New System.Drawing.Point(274, 21)
+        Me.u.Name = "u"
+        Me.u.Size = New System.Drawing.Size(56, 20)
+        Me.u.TabIndex = 5
         '
         'y
         '
@@ -250,11 +250,11 @@ Partial Class Form1
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(511, 311)
+        Me.Label12.Location = New System.Drawing.Point(507, 311)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(15, 13)
+        Me.Label12.Size = New System.Drawing.Size(23, 13)
         Me.Label12.TabIndex = 24
-        Me.Label12.Text = "U"
+        Me.Label12.Text = "Niu"
         '
         'Label13
         '
@@ -290,7 +290,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.yd)
         Me.Controls.Add(Me.y)
-        Me.Controls.Add(Me.niu)
+        Me.Controls.Add(Me.u)
         Me.Controls.Add(Me.bias)
         Me.Controls.Add(Me.w2)
         Me.Controls.Add(Me.w1)
@@ -307,7 +307,7 @@ Partial Class Form1
     Friend WithEvents w1 As System.Windows.Forms.TextBox
     Friend WithEvents w2 As System.Windows.Forms.TextBox
     Friend WithEvents bias As System.Windows.Forms.TextBox
-    Friend WithEvents niu As System.Windows.Forms.TextBox
+    Friend WithEvents u As System.Windows.Forms.TextBox
     Friend WithEvents y As System.Windows.Forms.TextBox
     Friend WithEvents yd As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label

@@ -21,12 +21,12 @@
         ve = vyd - vy
         While ve <> 0
             traine()
-            y.Text = vy
-            bias.Text = vbias
-            w1.Text = vw1
-            w2.Text = vw2
-            niu.Text = vniu
         End While
+        y.Text = vy
+        bias.Text = vbias
+        w1.Text = vw1
+        w2.Text = vw2
+        u.Text = vu
     End Sub
 
     Public Sub traine()
